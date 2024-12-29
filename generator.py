@@ -18,4 +18,8 @@ for i in range(15):
 
 print(f'Password: {password}')
 pyperclip.copy(password)
+<<<<<<< HEAD
 print('Your password has been copied to the clipboard')
+=======
+print('Your password has been copied to the clipboard')
+>>>>>>> origin/main

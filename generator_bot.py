@@ -18,5 +18,6 @@ for i in range(15):
 bot = telebot.TeleBot("7826720576:AAG3XaRk-JBAxkaNW8Jy_zUoEC--WhXY-gM")
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-	bot.send_message(message.chat.id, f"Password: {password}")
+    bot.send_message(message.chat.id, f"Password: {password}")
+
 bot.infinity_polling()
